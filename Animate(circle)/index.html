@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+
+<div class="main" >
+    <div class="circle" ></div>
+</div>
+
+  <div class="option" >
+    <h2>Create Own Circle</h2>
+    <br> 
+    <label for="color">Color:</label>
+    <br>
+    <input type="color" id="color">
+    <br> <br>
+    <label for="back">Background:</label>
+    <br>
+    <input type="color" id="back" >
+    <br> <br>
+    <label for="circlepic">Add photo to circle:</label>
+    <br>
+    <input type="text" id="circlepic" >
+    <br><br>
+    <label for="backpic">Add photo to background:</label>
+    <br>
+    <input type="text" id="backpic" >
+    <br><br>
+    <label for="radius">Radius:</label>
+    <br>
+    <input type="number" id="radius" min="50" max="200" step="10">
+    <br> <br>
+    <label for="speed">Speed:</label>
+    <br>
+    <input type="range" id="speed" min="50" max="5000" >
+    <p></p>
+    <br> <br>
+    <button class="stop" > Stop</button>
+    <button class="start">Start</button>
+  </div>
+</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js" ></script>
+    
+</body>
+</html>
